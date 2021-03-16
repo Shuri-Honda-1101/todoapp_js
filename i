@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +7,16 @@
     <link rel="stylesheet" href="./src/style.css">
     <title>Todo</title>
 </head>
-
 <body>
     <div class="input-area">
-        <input  id="add-text" type="text" placeholder="TODOを入力">
-        <button id="add-button">追加</button>
+        <input type="text" placeholder="TODOを入力">
+        <button>追加</button>
     </div>
 
     <div class="incomplete-area">
-        <p class="title">未完了のTODO</p>
-        <ul id="incomplete-list" class="move">
-            <div class="list-row">
-                <li>TODOサンプル</li>
-                <button>完了</button>
-                <button>削除</button>
-            </div>
-            <div class="list-row">
+        <p>未完了のTODO</p>
+        <ul>
+            <div>
                 <li>TODOサンプル</li>
                 <button>完了</button>
                 <button>削除</button>
@@ -32,9 +25,9 @@
     </div>
 
     <div class="complete-area">
-        <p class="title">完了したTODO</p>
-        <ul id="complete-list">
-            <div class="list-row">
+        <p>完了したTODO</p>
+        <ul>
+            <div>
                 <li>完了したTODOサンプル</li>
                 <button>戻す</button>
             </div>
@@ -42,5 +35,4 @@
     </div>
     <script src="./src/index.js"></script>
 </body>
-
 </html>
